@@ -1,0 +1,27 @@
+{
+  "name": "lx-cli-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lx": "./bin/www.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.6",
+    "chalk": "4",
+    "commander": "^10.0.0",
+    "consolidate": "^0.16.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.8",
+    "fs-extra": "^11.1.0",
+    "inquirer": "8",
+    "metalsmith": "^2.5.1",
+    "ncp": "^2.0.0",
+    "ora": "5"
+  }
+}
